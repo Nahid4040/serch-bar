@@ -1,0 +1,52 @@
+/* logo */
+.aside .logo a::before{
+    border-top: 4px solid red;
+    border-left: 4px solid red;
+}
+.aside .logo a::after{
+    border-right: 4px solid red;
+    border-bottom: 4px solid red;
+}
+.portfolio-filter .active,
+.cv-section-1 span,
+.cv-section-2 span,
+.cv-section-3 span,
+.about-text h3,
+.aside .nav li a:hover,
+.aside .nav li a.active{
+    color: #ffb400;
+}
+
+.experience-item .item-part .circle-box,
+.button button,
+.cntct-1 a,
+.social i,
+button#sendMsg,
+.educatin-item .item-part .circle-box,
+.service-item a,
+.cv-section .progress .progress-in,
+.section-title::after,
+.section-title::before,
+.aside .nav-toggole span,
+.aside .nav-toggole span::before,
+.aside .nav-toggole span::after,
+.home .intro .social-link a{
+    background-color: #ffb400;
+}
+
+
+.portfolio-filter button.active {
+    border-color: #ffb400;
+}
+
+
+
+section.service-section,
+section.portfolio-section {
+    overflow: hidden;
+}
+
+section.service-section, section.portfolio-section,footer.portfolio-section {
+    overflow: hidden;
+    background: #f2f2f2;
+}
